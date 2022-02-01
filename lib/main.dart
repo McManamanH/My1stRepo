@@ -20,7 +20,8 @@ Widget build(BuildContext context){
               height: 100.0,
               width: 100.0,
               color: Colors.white,
-              child: Text("Hello guys!!"),
+              child: Text("Hello guys!!,am gone"),
+              
               
               
             ),
