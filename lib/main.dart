@@ -8,19 +8,24 @@ class MyApp extends StatelessWidget{
 Widget build(BuildContext context){
     return MaterialApp(
         home: Scaffold(
-        backgroundColor: Colors.teal,
-          body: SafeArea(
-            child: Container(
-              color: Colors.white,
-              child: Text("Hello guys!!"),
-            ),
-          ),
           appBar: AppBar(
             backgroundColor: Colors.black,
             title: Text('McManaman'),
             centerTitle: true,
           ),
+        backgroundColor: Colors.teal,
+          body: SafeArea(
+            child : Center(
+            child: Container(
+              height: 100.0,
+              width: 100.0,
+              color: Colors.white,
+              child: Text("Hello guys!!"),
+            ),
+          ),
+
         ),
+       ),
     );
   }
 }
