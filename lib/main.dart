@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -15,8 +16,10 @@ Widget build(BuildContext context){
           ),
         backgroundColor: Colors.teal,
           body: SafeArea(
-            child : Center(
+            //child : Center(
             child: Container(
+              margin: EdgeInsets.all(20.0),
+              padding: EdgeInsets.all(20.0),
               height: 100.0,
               width: 100.0,
               color: Colors.white,
@@ -26,8 +29,8 @@ Widget build(BuildContext context){
           ),
 
         ),
-       ),
-    );
+       );
+
   }
 }
 
