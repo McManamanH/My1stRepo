@@ -11,12 +11,12 @@ Widget build(BuildContext context){
     return MaterialApp(
         home: Scaffold(
           // ignore: prefer_const_constructors
-          appBar: AppBar(
+          /*appBar: AppBar(
             backgroundColor: Colors.black,
             // ignore: prefer_const_constructors
             title: Text('McManaman'),
             centerTitle: true,
-          ),
+          ),*/
         backgroundColor: Colors.teal,
           body: SafeArea(
             /*child : Center(
@@ -39,7 +39,7 @@ Widget build(BuildContext context){
                 ),
                 // ignore: prefer_const_constructors
                 Text(
-                  'Kundai Horiro Jnr',
+                  'McManaman Horiro',
                   // ignore: prefer_const_constructors
                   style: TextStyle(
                     fontSize: 40.0,
@@ -63,10 +63,18 @@ Widget build(BuildContext context){
                     color: Colors.teal.shade900,
                   ),
                 ),
+                // ignore: avoid_unnecessary_containers
                 Container(
-                    // ignore: prefer_const_constructors
+
+                  color: Colors.white,
+                  height: 80.0,
+                  // ignore: prefer_const_constructors
+                  margin: EdgeInsets.fromLTRB(50.0, 10.0, 50.0, 10.0),
+                  // ignore: prefer_const_constructors
+                  padding: EdgeInsets.fromLTRB(30.0, 10.0, 10.0, 10.0),
+                  // ignore: prefer_const_constructors
                   child: Row(
-                    children: [
+                    children: const [
                         // ignore: prefer_const_constructors
                       Icon(
                         Icons.phone,
@@ -74,12 +82,14 @@ Widget build(BuildContext context){
                       ),
                       // ignore: prefer_const_constructors
                       SizedBox(
-                        width: 10.0,
+                        width: 20.0,
                       ),
+                      // ignore: prefer_const_constructors
                       Text(
                         '+263 785179432',
+                        // ignore: prefer_const_constructors
                         style: TextStyle(
-                            color: Colors.tealAccent .shade100,
+                            color: Colors.black87,
                             fontSize: 20.0),
                       ),
                     ],
@@ -89,9 +99,19 @@ Widget build(BuildContext context){
                 SizedBox(
                   height: 10.0,
                 ),
+                // ignore: avoid_unnecessary_containers
                 Container(
+                  color: Colors.white,
+                  height: 80.0,
+                  // ignore: prefer_const_constructors
+                  margin: EdgeInsets.fromLTRB(50.0, 10.0, 50.0, 10.0),
+                  // ignore: prefer_const_constructors
+                  padding: EdgeInsets.fromLTRB(30.0, 10.0, 10.0, 10.0),
                   // ignore: prefer_const_constructors
                    child: Row(
+                      // ignore: prefer_const_literals_to_create_immutables
+                      // ignore: prefer_const_literals_to_create_immutables
+                      // ignore: prefer_const_literals_to_create_immutables
                       children: [
                       // ignore: prefer_const_constructors
                      Icon(
@@ -103,10 +123,10 @@ Widget build(BuildContext context){
                       SizedBox(
                         width: 10.0,
                           ),
-                      Text(
+                      const Text(
                         'mcmanamanhoriro@yahoo.com',
                         style: TextStyle(
-                        color: Colors.teal.shade100,
+                        color: Colors.black87,
                         fontSize: 20.0),
                         ),
                       ],
