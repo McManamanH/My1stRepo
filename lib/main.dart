@@ -39,7 +39,7 @@ Widget build(BuildContext context){
                 ),
                 // ignore: prefer_const_constructors
                 Text(
-                  'McManaman Horiro',
+                  'Reconcile Makamure',
                   // ignore: prefer_const_constructors
                   style: TextStyle(
                     fontSize: 40.0,
@@ -86,7 +86,7 @@ Widget build(BuildContext context){
                       ),
                       // ignore: prefer_const_constructors
                       Text(
-                        '+263 785179432',
+                        '+263 773537936',
                         // ignore: prefer_const_constructors
                         style: TextStyle(
                             color: Colors.black87,
@@ -124,7 +124,7 @@ Widget build(BuildContext context){
                         width: 10.0,
                           ),
                       const Text(
-                        'mcmanamanhoriro@yahoo.com',
+                        'recomakamure@gmail.com',
                         style: TextStyle(
                         color: Colors.black87,
                         fontSize: 20.0),
