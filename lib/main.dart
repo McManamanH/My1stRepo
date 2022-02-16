@@ -17,7 +17,7 @@ Widget build(BuildContext context){
             title: Text('McManaman'),
             centerTitle: true,
           ),*/
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blueGrey,
           body: SafeArea(
             /*child : Center(
               child: Image(
@@ -35,7 +35,7 @@ Widget build(BuildContext context){
                 CircleAvatar(
                   radius: 50.0,
                   // ignore: prefer_const_constructors
-                  backgroundImage: AssetImage('images/example.jpg'),
+                  backgroundImage: AssetImage('images/images.jpg'),
                 ),
                 // ignore: prefer_const_constructors
                 Text(
